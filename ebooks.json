@@ -1,0 +1,684 @@
+{
+  "source": "https://www.amazingfacts.org/study/free-book-library/",
+  "checkedAt": "2026-10-18",
+  "books": [
+    {
+      "title": "14 Reasons Why Evolution Defies Logic",
+      "page": "https://www.amazingfacts.org/study/free-books/14-reasons-why-evolution-defies-logic/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/cover14reasons.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/14-Reasons-Why-Evolution-Defies-Logic_web.pdf",
+      "displayCrop": {
+        "left": 118,
+        "right": 586,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "A Pastor’s Cold Confession",
+      "page": "https://www.amazingfacts.org/study/free-books/a-pastors-cold-confession/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-CCFN-pastors-cold-confession-pocketbook-front.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/A-Cold-Confession-Web.pdf",
+      "displayCrop": {
+        "left": 118,
+        "right": 586,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "Absent From The Body",
+      "page": "https://www.amazingfacts.org/study/free-books/absent-from-the-body/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AB.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AB.pdf"
+    },
+    {
+      "title": "Alone in the Crowd",
+      "page": "https://www.amazingfacts.org/study/free-books/alone-in-the-crowd/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ATC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ATC.pdf"
+    },
+    {
+      "title": "Amazing Wonders of Creation",
+      "page": "https://www.amazingfacts.org/study/free-books/amazing-wonders-of-creation/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AWC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AWC.pdf"
+    },
+    {
+      "title": "America and the Ten Commandments",
+      "page": "https://www.amazingfacts.org/study/free-books/america-and-the-ten-commandments/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AATC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AATC.pdf"
+    },
+    {
+      "title": "Anything But Secret",
+      "page": "https://www.amazingfacts.org/study/free-books/anything-but-secret/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ABS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ABS.pdf"
+    },
+    {
+      "title": "Armageddon",
+      "page": "https://www.amazingfacts.org/study/free-books/armageddon/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ARM.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ARM.pdf"
+    },
+    {
+      "title": "Assurance – Justification Made Simple",
+      "page": "https://www.amazingfacts.org/study/free-books/assurance-justification-made-simple/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AJMS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AJMS.pdf"
+    },
+    {
+      "title": "Baptism – Is It Really Necessary?",
+      "page": "https://www.amazingfacts.org/study/free-books/baptism-is-it-really-necessary/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BRN.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BRN.pdf"
+    },
+    {
+      "title": "Baptized Paganism",
+      "page": "https://www.amazingfacts.org/study/free-books/baptized-paganism/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/bk-bp.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BP.pdf"
+    },
+    {
+      "title": "Beyond Mercy",
+      "page": "https://www.amazingfacts.org/study/free-books/beyond-mercy/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BM.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BM.pdf"
+    },
+    {
+      "title": "Blood Behind the Veil",
+      "page": "https://www.amazingfacts.org/study/free-books/blood-behind-the-veil/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BBV.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BBV.pdf"
+    },
+    {
+      "title": "Can a Saved Man Choose to be Lost?",
+      "page": "https://www.amazingfacts.org/study/free-books/can-a-saved-man-choose-to-be-lost/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CSMC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CSMC.pdf"
+    },
+    {
+      "title": "Choosing Life: A Christian Perspective on Suicide",
+      "page": "https://www.amazingfacts.org/study/free-books/choosing-life-a-christian-perspective-on-suicide/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-CLS-choosing-life-pocket-book-front.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/Choosing-Life-WEB.pdf",
+      "displayCrop": {
+        "left": 118,
+        "right": 586,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "Christ’s Human Nature",
+      "page": "https://www.amazingfacts.org/study/free-books/christs-human-nature/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CHN.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CHN.pdf"
+    },
+    {
+      "title": "CLEAN: Seven Steps to Freedom—What Every Addict Needs",
+      "page": "https://www.amazingfacts.org/study/free-books/clean-seven-steps-to-freedom-what-every-addict-needs/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-CSSF-clean-seven-steps-to-freedom-pocketbook-front.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/CleanSevenStepsToFreedom_web.pdf",
+      "displayCrop": {
+        "left": 118,
+        "right": 586,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "Colorful Cosmetics and Jewelry",
+      "page": "https://www.amazingfacts.org/study/free-books/colorful-cosmetics-and-jewelry/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CCJ.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CCJ.pdf"
+    },
+    {
+      "title": "Coming: One World Church",
+      "page": "https://www.amazingfacts.org/study/free-books/coming-one-world-church/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-OWC-coming-one-world-church-pocket-book-front.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-OWC.pdf"
+    },
+    {
+      "title": "Compromise, Conformity, and Courage",
+      "page": "https://www.amazingfacts.org/study/free-books/compromise-conformity-and-courage/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CCAC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CCAC.pdf"
+    },
+    {
+      "title": "Culture and the Christian",
+      "page": "https://www.amazingfacts.org/study/free-books/culture-and-the-christian/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CTC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CTC.pdf"
+    },
+    {
+      "title": "Death in the Kitchen",
+      "page": "https://www.amazingfacts.org/study/free-books/death-in-the-kitchen/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DIK.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DIK.pdf"
+    },
+    {
+      "title": "Deathwatch in Siberia",
+      "page": "https://www.amazingfacts.org/study/free-books/deathwatch-in-siberia/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DWS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DWS.pdf"
+    },
+    {
+      "title": "Deliverance From Debt",
+      "page": "https://www.amazingfacts.org/study/free-books/deliverance-from-debt/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DFD.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DFD.pdf"
+    },
+    {
+      "title": "Determining the Will of God",
+      "page": "https://www.amazingfacts.org/study/free-books/determining-the-will-of-god/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DWOG.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DWG.pdf"
+    },
+    {
+      "title": "Does God’s Grace Blot Out the Law?",
+      "page": "https://www.amazingfacts.org/study/free-books/does-gods-grace-blot-out-the-law/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DGGB.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DGGB.pdf"
+    },
+    {
+      "title": "Down From His Glory",
+      "page": "https://www.amazingfacts.org/study/free-books/down-from-his-glory/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DFG.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DFG.pdf"
+    },
+    {
+      "title": "Eating to God’s Glory: Did Jesus Declare All Foods Clean?",
+      "page": "https://www.amazingfacts.org/study/free-books/eating-to-gods-glory-did-jesus-declare-all-foods-clean/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-EGG-transparent-front.png",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/Eating-to-Gods-Glory_web.pdf"
+    },
+    {
+      "title": "Feast Days and Sabbaths",
+      "page": "https://www.amazingfacts.org/study/free-books/feast-days-and-sabbaths/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FDS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FDS.pdf"
+    },
+    {
+      "title": "From Stress to Joy",
+      "page": "https://www.amazingfacts.org/study/free-books/from-stress-to-joy/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FSTJ.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FSTJ.pdf"
+    },
+    {
+      "title": "God’s Role for Women in Ministry",
+      "page": "https://www.amazingfacts.org/study/free-books/gods-role-for-women-in-ministry/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/bk-grw.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-GRW.pdf"
+    },
+    {
+      "title": "Heaven – Is It For Real?",
+      "page": "https://www.amazingfacts.org/study/free-books/heaven-is-it-for-real/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HFR-heaven-is-it-for-real-pocket-book-front.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HFR.pdf"
+    },
+    {
+      "title": "Hell-fire",
+      "page": "https://www.amazingfacts.org/study/free-books/hell-fire/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HF.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HF.pdf"
+    },
+    {
+      "title": "Hidden Dangers in Harry Potter",
+      "page": "https://www.amazingfacts.org/study/free-books/hidden-dangers-in-harry-potter/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-HDHP-hidden-dangers-in-harry-potter-pocket-book-front.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/HiddenDangersHarryPotter_web.pdf",
+      "displayCrop": {
+        "left": 118,
+        "right": 586,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "Hidden Eyes and Closed Ears",
+      "page": "https://www.amazingfacts.org/study/free-books/hidden-eyes-and-closed-ears/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HECE.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HECE.pdf"
+    },
+    {
+      "title": "Hogs and Other Hazards",
+      "page": "https://www.amazingfacts.org/study/free-books/hogs-and-other-hazards/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HOH.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HOH.pdf"
+    },
+    {
+      "title": "Holy Spirit – The Need",
+      "page": "https://www.amazingfacts.org/study/free-books/holy-spirit-the-need/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/holy-spirit-the-need.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/Holy-Spirit-Web.pdf"
+    },
+    {
+      "title": "How Evolution Flunked the Science Test",
+      "page": "https://www.amazingfacts.org/study/free-books/how-evolution-flunked-the-science-test/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-EFS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-EFS.pdf"
+    },
+    {
+      "title": "How to Keep the Sabbath Holy",
+      "page": "https://www.amazingfacts.org/study/free-books/how-to-keep-the-sabbath-holy/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HKSH-how-to-keep-the-sabbath-holy-front.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HKSH.pdf"
+    },
+    {
+      "title": "How to Walk With God in a Wicked World",
+      "page": "https://www.amazingfacts.org/study/free-books/how-to-walk-with-god-in-a-wicked-world/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-WWG-how-to-walk-with-god-in-a-wicked-world-pocket-book-front.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/How-to-Walk-with-God-Web.pdf",
+      "displayCrop": {
+        "left": 118,
+        "right": 586,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "Is It a Sin to be Tempted?",
+      "page": "https://www.amazingfacts.org/study/free-books/is-it-a-sin-to-be-tempted/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ISBT.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ISBT.pdf"
+    },
+    {
+      "title": "Is It Easier to Be Saved or to be Lost?",
+      "page": "https://www.amazingfacts.org/study/free-books/is-it-easier-to-be-saved-or-to-be-lost/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ESL.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ESL.pdf"
+    },
+    {
+      "title": "Is It Possible to Live Without Sinning?",
+      "page": "https://www.amazingfacts.org/study/free-books/is-it-possible-to-live-without-sinning/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-LWS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-LWS.pdf"
+    },
+    {
+      "title": "Is Sunday Really Sacred?",
+      "page": "https://www.amazingfacts.org/study/free-books/is-sunday-really-sacred/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ISRS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ISRS.pdf"
+    },
+    {
+      "title": "Jewelry – How Much Is Too Much?",
+      "page": "https://www.amazingfacts.org/study/free-books/jewelry-how-much-is-too-much/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-JHM.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-JHM.pdf"
+    },
+    {
+      "title": "Life in the Spirit",
+      "page": "https://www.amazingfacts.org/study/free-books/life-in-the-spirit/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-LIS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-LIS.pdf"
+    },
+    {
+      "title": "Man’s Flicker or God’s Flame",
+      "page": "https://www.amazingfacts.org/study/free-books/mans-flicker-or-gods-flame/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-MFGF.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-MFGF.pdf"
+    },
+    {
+      "title": "Pending – Your Case in Court",
+      "page": "https://www.amazingfacts.org/study/free-books/pending-your-case-in-court/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-PYC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-PYC.pdf"
+    },
+    {
+      "title": "Point of No Return",
+      "page": "https://www.amazingfacts.org/study/free-books/point-of-no-return/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-PNR.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-PNR.pdf"
+    },
+    {
+      "title": "Remember Lot’s Wife",
+      "page": "https://www.amazingfacts.org/study/free-books/remember-lots-wife/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-RLW.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-RLW.pdf"
+    },
+    {
+      "title": "Rendezvous In Space",
+      "page": "https://www.amazingfacts.org/study/free-books/rendezvous-in-space/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-RIS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-RIS.pdf"
+    },
+    {
+      "title": "Revitalize Your Marriage: A Guide to a Christian Union",
+      "page": "https://www.amazingfacts.org/study/free-books/revitalize-your-marriage-a-guide-to-a-christian-union/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/revitalizayourmarriagejacketcover.png",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/Revitalize-Your-Marriage.pdf"
+    },
+    {
+      "title": "Riches of Grace",
+      "page": "https://www.amazingfacts.org/study/free-books/riches-of-grace/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ROG.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-ROG.pdf"
+    },
+    {
+      "title": "Satan in Chains",
+      "page": "https://www.amazingfacts.org/study/free-books/satan-in-chains/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SIC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SIC.pdf"
+    },
+    {
+      "title": "Satan’s Confusing Counterfeits",
+      "page": "https://www.amazingfacts.org/study/free-books/satans-confusing-counterfeits/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SCC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SCC.pdf"
+    },
+    {
+      "title": "Should a Christian Vote?",
+      "page": "https://www.amazingfacts.org/study/free-books/should-a-christian-vote/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-SCV-should-a-christian-vote-pocket-book-front.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/Should-a-Christian-Vote-Web.pdf",
+      "displayCrop": {
+        "left": 118,
+        "right": 586,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "Spirits from Other Worlds",
+      "page": "https://www.amazingfacts.org/study/free-books/spirits-from-other-worlds/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SOW.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SOW.pdf"
+    },
+    {
+      "title": "Spirits of the Dead",
+      "page": "https://www.amazingfacts.org/study/free-books/spirits-of-the-dead/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SD.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SD.pdf"
+    },
+    {
+      "title": "Spiritual Israel",
+      "page": "https://www.amazingfacts.org/study/free-books/spiritual-israel/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SI.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SI.pdf"
+    },
+    {
+      "title": "Teach Us to Pray",
+      "page": "https://www.amazingfacts.org/study/free-books/teach-us-to-pray/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TUTP.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TUTP.pdf"
+    },
+    {
+      "title": "The Abomination of Desolation",
+      "page": "https://www.amazingfacts.org/study/free-books/the-abomination-of-desolation/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AOD.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AOD.pdf"
+    },
+    {
+      "title": "The Armor of God",
+      "page": "https://www.amazingfacts.org/study/free-books/the-armor-of-god/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AOG.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-AOG.pdf"
+    },
+    {
+      "title": "The Beast – Who Will Worship It?",
+      "page": "https://www.amazingfacts.org/study/free-books/the-beast-who-will-worship-it/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BWW.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BWW.pdf"
+    },
+    {
+      "title": "The Beast, the Dragon, and the Woman",
+      "page": "https://www.amazingfacts.org/study/free-books/the-beast-the-dragon-and-the-woman/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BDW.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-NBDW.pdf"
+    },
+    {
+      "title": "The Bible’s Greatest Prophecies",
+      "page": "https://www.amazingfacts.org/study/free-books/the-bibles-greatest-prophecies/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/09/The-Bibles-Greatest-Propheciescoverpdf.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/09/The-Bibles-Greatest-Prophecies.pdf"
+    },
+    {
+      "title": "The Brook Dried Up",
+      "page": "https://www.amazingfacts.org/study/free-books/the-brook-dried-up/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BDU.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-BDU.pdf"
+    },
+    {
+      "title": "The Christian and Alcohol",
+      "page": "https://www.amazingfacts.org/study/free-books/the-christian-and-alcohol/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CA.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-CA.pdf"
+    },
+    {
+      "title": "The Drummer Boy’s Prayer",
+      "page": "https://www.amazingfacts.org/study/free-books/the-drummer-boys-prayer/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DBP.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-DBP.pdf"
+    },
+    {
+      "title": "The Faithful Witness",
+      "page": "https://www.amazingfacts.org/study/free-books/the-faithful-witness/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FW-faithful-witness-pocket-book-front.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FW.pdf",
+      "displayCrop": {
+        "left": 169,
+        "right": 838,
+        "imageWidth": 1000,
+        "imageHeight": 1000
+      }
+    },
+    {
+      "title": "The Final Verdict",
+      "page": "https://www.amazingfacts.org/study/free-books/the-final-verdict/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FV.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FV.pdf"
+    },
+    {
+      "title": "The Flesh and the Spirit",
+      "page": "https://www.amazingfacts.org/study/free-books/the-flesh-and-the-spirit/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FAS-flesh-and-the-spirit-pocket-book-front.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-FAS.pdf"
+    },
+    {
+      "title": "The High Cost of the Cross",
+      "page": "https://www.amazingfacts.org/study/free-books/the-high-cost-of-the-cross/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HCC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-HCC.pdf"
+    },
+    {
+      "title": "The Last Elijah Message",
+      "page": "https://www.amazingfacts.org/study/free-books/the-last-elijah-message/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-LEMPB-transparent-front_84402d49-8b2e-4407-8e5c-e845cfbada10.png",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/The-Last-Elijah-Message_web.pdf",
+      "displayCrop": {
+        "left": 153,
+        "right": 560,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "The Last Night on Earth",
+      "page": "https://www.amazingfacts.org/study/free-books/the-last-night-on-earth/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-LNE.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-LNE.pdf"
+    },
+    {
+      "title": "The Mystery of Mary Mother of Jesus",
+      "page": "https://www.amazingfacts.org/study/free-books/the-mystery-of-mary-mother-of-jesus/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TMJ-mystery-of-mary-mother-of-jesus-pocket-book-front.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TMJ.pdf"
+    },
+    {
+      "title": "The Name of God",
+      "page": "https://www.amazingfacts.org/study/free-books/the-name-of-god/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-NOG.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-NOG.pdf"
+    },
+    {
+      "title": "The Power of a Positive No!",
+      "page": "https://www.amazingfacts.org/study/free-books/the-power-of-a-positive-no/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-PPN.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-PPN.pdf"
+    },
+    {
+      "title": "The Rich Man and Lazarus By Doug Batchelor",
+      "page": "https://www.amazingfacts.org/study/free-books/the-rich-man-and-lazarus-by-doug-batchelor/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-RMAL-1-1.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-RMAL.pdf"
+    },
+    {
+      "title": "The Savior and the Serpent",
+      "page": "https://www.amazingfacts.org/study/free-books/the-savior-and-the-serpent/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TSTS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TSTS.pdf"
+    },
+    {
+      "title": "The Scarlet Woman",
+      "page": "https://www.amazingfacts.org/study/free-books/the-scarlet-woman/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SW.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SW.pdf"
+    },
+    {
+      "title": "The Search for the True Church",
+      "page": "https://www.amazingfacts.org/study/free-books/the-search-for-the-true-church/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-STC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-STC.pdf"
+    },
+    {
+      "title": "The Secret Rapture",
+      "page": "https://www.amazingfacts.org/study/free-books/the-secret-rapture/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SR.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SR.pdf"
+    },
+    {
+      "title": "The Sign of Jonah",
+      "page": "https://www.amazingfacts.org/study/free-books/the-sign-of-jonah/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SOJ.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SOJ.pdf"
+    },
+    {
+      "title": "The Surrender of Self",
+      "page": "https://www.amazingfacts.org/study/free-books/the-surrender-of-self/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SOS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-SOS.pdf"
+    },
+    {
+      "title": "The Trinity",
+      "page": "https://www.amazingfacts.org/study/free-books/the-trinity/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TRIN.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TRIN.pdf"
+    },
+    {
+      "title": "The Two Witnesses",
+      "page": "https://www.amazingfacts.org/study/free-books/the-two-witnesses/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TW.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TW.pdf"
+    },
+    {
+      "title": "The Ultimate Resource",
+      "page": "https://www.amazingfacts.org/study/free-books/the-ultimate-resource/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-UR.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-UR.pdf"
+    },
+    {
+      "title": "Thieves in the Church",
+      "page": "https://www.amazingfacts.org/study/free-books/thieves-in-the-church/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TIC.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TIC.pdf"
+    },
+    {
+      "title": "Three Days and Three Nights",
+      "page": "https://www.amazingfacts.org/study/free-books/three-days-and-three-nights/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-3DN.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-3DN.pdf"
+    },
+    {
+      "title": "Three Steps to Heaven",
+      "page": "https://www.amazingfacts.org/study/free-books/three-steps-to-heaven/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TSH.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TSH.pdf"
+    },
+    {
+      "title": "Three Unclean Spirits",
+      "page": "https://www.amazingfacts.org/study/free-books/three-unclean-spirits/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TUS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TUS.pdf"
+    },
+    {
+      "title": "Tiny Troublemaker",
+      "page": "https://www.amazingfacts.org/study/free-books/tiny-troublemaker/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TT.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TT.pdf"
+    },
+    {
+      "title": "Tips For Resisting Temptation",
+      "page": "https://www.amazingfacts.org/study/free-books/tips-for-resisting-temptation/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TFRT.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TFRT.pdf"
+    },
+    {
+      "title": "Twelve Steps to Revival",
+      "page": "https://www.amazingfacts.org/study/free-books/twelve-steps-to-revival/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TSR.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-TSR.pdf"
+    },
+    {
+      "title": "Understanding Tongues",
+      "page": "https://www.amazingfacts.org/study/free-books/understanding-tongues/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-UT.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-UT.pdf"
+    },
+    {
+      "title": "War in Heaven: The Origin of Evil",
+      "page": "https://www.amazingfacts.org/study/free-books/war-in-heaven-the-origin-of-evil/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-CCPB700X700.png",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/War-in-Heaven_web.pdf",
+      "displayCrop": {
+        "left": 131,
+        "right": 556,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "When You Fast: A Brief Guide to a Forgotten Christian Discipline",
+      "page": "https://www.amazingfacts.org/study/free-books/when-you-fast-a-brief-guide-to-a-forgotten-christian-discipline/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2026/07/BK-WYF-when-you-fast-pocket-book-front.webp",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2026/07/When-You-Fast_web.pdf",
+      "displayCrop": {
+        "left": 118,
+        "right": 586,
+        "imageWidth": 700,
+        "imageHeight": 700
+      }
+    },
+    {
+      "title": "Who Are the Sons of God?",
+      "page": "https://www.amazingfacts.org/study/free-books/who-are-the-sons-of-god/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-WSG.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-WSG.pdf"
+    },
+    {
+      "title": "Who Is Michael The Archangel?",
+      "page": "https://www.amazingfacts.org/study/free-books/who-is-michael-the-archangel/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-WMA.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-WMA.pdf"
+    },
+    {
+      "title": "Who Will Sing the Song? The 144000 of Revelation 14",
+      "page": "https://www.amazingfacts.org/study/free-books/who-will-sing-the-song-the-144000-of-revelation-14/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-WWSS.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-WWSS.pdf"
+    },
+    {
+      "title": "Why God Said Remember",
+      "page": "https://www.amazingfacts.org/study/free-books/why-god-said-remember/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-GSR.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-GSR.pdf"
+    },
+    {
+      "title": "Why the Old Covenant Failed",
+      "page": "https://www.amazingfacts.org/study/free-books/why-the-old-covenant-failed/",
+      "cover": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-OCF.jpg",
+      "pdf": "https://www.amazingfacts.org/wp-content/uploads/2025/06/BK-OCF.pdf"
+    }
+  ]
+}
