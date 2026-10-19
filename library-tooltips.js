@@ -158,6 +158,7 @@
     pointerCard = card;
     pointer = {x:event.clientX, y:event.clientY};
     if (scrolling) { hide(); return; }
+
     show(card);
   });
   document.addEventListener('pointermove', event => {
@@ -165,10 +166,24 @@
     const card = cardFor(event.target);
     if (!card || card !== pointerCard) return;
     const moved = !pointer || pointer.x !== event.clientX || pointer.y !== event.clientY;
+    const horizontalOnly = pointer && pointer.x !== event.clientX && pointer.y === event.clientY;
+    const verticalMotion = pointer && event.clientY !== pointer.y && Math.abs(event.clientY - pointer.y) >= Math.abs(event.clientX - pointer.x);
     pointer = {x:event.clientX, y:event.clientY};
     if (scrolling) { hide(); return; }
+
+    if (card.matches('.promo-book') && verticalMotion) {
+      clearTimeout(channelIdleTimer);
+      if (active === card && !tooltip.hidden) position();
+      else show(card);
+      return;
+    }
+    if (card.matches('.channel-card') && horizontalOnly) {
+      clearTimeout(channelIdleTimer);
+      if (active === card && !tooltip.hidden) position();
+      else show(card);
+      return;
+    }
     if (moved) {
-      if (!moved) return;
       hide();
       channelIdleTimer = setTimeout(() => {
         if (pointerCard === card && card.isConnected) show(card);

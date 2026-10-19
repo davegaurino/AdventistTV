@@ -76,3 +76,5 @@ Bible Study Guides and Storacles now use a two-column split for tooltip directio
 Header ad tooltips always appear 20px below the ad background container, horizontally centered on the mouse pointer. Screen-edge clamping keeps the popup readable, and vertical overflow scrolls within the available space below the ad. Library and playlist placement rules remain unchanged.
 
 Exception: hovering or focusing the Download overlay inside the header free ebooks ad can show its ebook tooltip. Button suppression remains in effect elsewhere; movement and stillness rules are retained.
+
+Playlist-only exception: horizontal mouse movement keeps the channel tooltip visible. Vertical movement still hides it until 500ms of stillness. Other sections retain their movement suppression, and button/scroll behavior is unchanged.
