@@ -39,3 +39,24 @@ All ebook covers now sit centred in uniform 2:3 portrait frames. Complete cover 
 All 27 Amazing Facts Bible Study Guides are shown after the ebook section. Each image and guide card links to its official Amazing Facts lesson page in a new tab. Images use the publisher's hosted photo URLs; no study-guide images or lesson files are downloaded into this folder. study-guides.json records all guide titles, page URLs and image URLs.
 
 Both study sections have Read the Lesson buttons. The 24-lesson Storacles of Prophecy section follows the 27 Bible Study Guides, with official Amazing Facts image URLs and page links opening in new tabs. Both series are included in the responsive menu. The playlist now uses the same dark charcoal-and-red palette as the rest of the page.
+
+Header ebook promotion: seven covers at a time on a white background, cycling every seven seconds through every book in the page library. Hover or keyboard focus reveals Download. Arrow and pause controls are available; automatic rotation pauses while hovered/focused and respects reduced motion. Covers and PDFs remain hosted by Amazing Facts. As with the library buttons, the browser may open its PDF viewer instead of saving immediately because these are external files.
+
+
+
+Header tooltips contain five-sentence editorial summaries explaining each ebook's subject, main arguments, and purpose. These summaries are based on the Amazing Facts book pages and chapter topics; they are not opening passages or official publisher quotations. Source pages are recorded in ebooks.json. Hover or keyboard focus shows the tooltip, and Escape dismisses it.
+
+All 153 library items now show matching white tooltips with red accents: 102 ebooks, 27 Bible Study Guides, and 24 Storacles lessons. Tooltips contain the title and five-sentence editorial description, appear on hover or keyboard focus, remain readable when the pointer enters the popup, and dismiss with Escape. Existing download and lesson links are retained.
+
+All tooltips, including rotating header covers, follow the mouse pointer with a small gap below it. They shift inside the screen edges and appear above the pointer when there is insufficient space below. Keyboard focus keeps a card-based position; Escape still dismisses the popup.
+
+Playlist tooltips now show the channel name, description, broadcast base or listed country/region, operator, programming focus, and languages. They use the same pointer-following popup as the library. Network-wide programming profiles are identified as such; unverified local operators and studio addresses are labeled. These are channel profiles, not a live electronic program guide. Profile sources are recorded per channel in channels.json.
+
+Playlist hover behavior: a new channel displays its tooltip immediately. Mouse movement within that channel hides the popup; it returns after the pointer remains still for 500 milliseconds. Moving to another channel shows its information immediately. Keyboard tooltips and library pointer-following behavior remain available.
+
+
+Channel tooltips appear to the left of the playlist, aligned with the hovered row/pointer and kept inside the screen. On narrow screens without room beside the playlist, they use the existing screen-safe popup position. The 500ms stationary delay remains.
+
+Channel tooltips are vertically centered on the mouse pointer to the left of the playlist. With keyboard focus they center on the channel row. The position is clamped at the screen edges so the information remains visible.
+
+Ebook ad tooltips sit below the complete ad container and center horizontally on the mouse pointer. Ebooks, Bible Study Guides, and Storacles tooltips also center their width on the pointer. Screen-edge adjustments keep content visible. Channel tooltips remain to the left of the playlist and vertically centered on the pointer.

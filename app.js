@@ -15,7 +15,7 @@ function render(){
  const result=filterChannels(channels.filter(c=>c.ready),filters);$('results').textContent=`${result.length} ready channels${checkingReady?' · Checking streams…':''}`;
  document.querySelectorAll('[data-language]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.language===filters.language)));
  const nodes=result.map(c=>{
-  const card=create('article','channel-card'+(selected?.id===c.id?' active':''));card.tabIndex=0;card.setAttribute('data-network',c.network);card.setAttribute('role','button');card.setAttribute('aria-label','Play '+c.name);card.onclick=()=>play(c);card.onkeydown=event=>{if(event.target===card&&(event.key==='Enter'||event.key===' ')){event.preventDefault();play(c);}};
+  const card=create('article','channel-card'+(selected?.id===c.id?' active':''));card.tabIndex=0;card.setAttribute('data-network',c.network);card.dataset.channelId=c.id;card.setAttribute('role','button');card.setAttribute('aria-label','Play '+c.name);card.onclick=()=>play(c);card.onkeydown=event=>{if(event.target===card&&(event.key==='Enter'||event.key===' ')){event.preventDefault();play(c);}};
   const top=create('div','card-top');const monogram=create('span','monogram',c.network==='Hope Channel'?'HOPE':c.network==='3ABN'?'3ABN':c.network==='LLBN'?'LLBN':c.name.split(' ').map(w=>w[0]).slice(0,3).join(''));
   const star=create('button','star',favorites.has(c.id)?'★':'☆');star.setAttribute('aria-label','Favourite '+c.name);star.setAttribute('aria-pressed',String(favorites.has(c.id)));star.onclick=event=>{event.stopPropagation();favorites.has(c.id)?favorites.delete(c.id):favorites.add(c.id);try{localStorage.setItem('adventist-tv-favorites',JSON.stringify([...favorites]));}catch{}render();};top.append(monogram,star);
   const network=create('p','card-network',c.network),name=create('h3',''),country=create('p','card-country',c.country),tags=create('div','language-tags');
@@ -80,3 +80,4 @@ $('updated').textContent='Directory edition · '+(window.ADVENTIST_DIRECTORY?.up
 checkReadyChannels();
 
 window.getTVLivePosition=()=>player?.liveSyncPosition;
+
