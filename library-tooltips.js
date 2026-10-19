@@ -13,8 +13,16 @@
   let dismissTimer;
   let channelIdleTimer;
   let pointer = null;
+  let scrolling = false;
+  let scrollIdleTimer;
   const selector = '.ebook-grid .ebook-card, .study-guide-grid .study-guide-card, .promo-book, .channel-card';
   const cardFor = target => target instanceof Element ? target.closest(selector) : null;
+  const buttonFor = target => {
+    if (!(target instanceof Element)) return null;
+    // The ad's Download overlay is part of the ebook preview hover area.
+    if (target.closest('.promo-book')) return null;
+    return target.closest('button, .ebook-download, .lesson-button, .promo-download');
+  };
   const linksFor = card => card.matches('a, .channel-card') ? [card] : card.querySelectorAll('a');
   function hide() {
     clearTimeout(dismissTimer);
@@ -27,6 +35,21 @@
     if (!active || tooltip.hidden) return;
     const card = active.getBoundingClientRect();
     tooltip.style.width = '';
+    tooltip.style.maxHeight = '';
+    if (active.matches('.promo-book')) {
+      const ad = active.closest('.ebook-promo').getBoundingClientRect();
+      let box = tooltip.getBoundingClientRect();
+      const top = ad.bottom + 20;
+      const room = window.innerHeight - top - 16;
+      if (room < 60) { hide(); return; }
+      tooltip.style.maxHeight = `${room}px`;
+      box = tooltip.getBoundingClientRect();
+      const centerX = pointer ? pointer.x : card.left + card.width / 2;
+      const left = Math.max(16, Math.min(centerX - box.width / 2, window.innerWidth - box.width - 16));
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+      return;
+    }
     if (active.matches('.channel-card')) {
       const playlist = active.closest('.channel-grid')?.getBoundingClientRect() || card;
       const available = playlist.left - 28;
@@ -39,14 +62,44 @@
         return;
       }
     }
-    const box = tooltip.getBoundingClientRect();
-    const gap = 12;
-    const x = (pointer ? pointer.x : card.left + card.width / 2) - box.width / 2;
+    let box = tooltip.getBoundingClientRect();
+    // Use the visible row so responsive grids follow the same left-to-right rule.
+    const siblings = [...(active.parentElement?.children || [active])].filter(item => item.matches('.ebook-card, .study-guide-card, .promo-book'));
+    const row = siblings.filter(item => Math.abs(item.getBoundingClientRect().top - card.top) <= 12)
+      .sort((a,b) => a.getBoundingClientRect().left - b.getBoundingClientRect().left);
+    const column = row.indexOf(active);
+    const rightSideColumns = active.matches('.study-guide-card') ? 2 : 3;
+    let toRight = column < rightSideColumns;
+    const pointerX = pointer ? pointer.x : toRight ? card.left + card.width : card.left;
+    const pointerGap = 24;
+    const rightEdge = Math.max(pointerX + pointerGap, card.left + card.width + 16);
+    const leftEdge = Math.min(pointerX - pointerGap, card.left - 16);
+    let available = toRight ? window.innerWidth - rightEdge - 16 : leftEdge - 16;
+    if (available < 220) {
+      toRight = !toRight;
+      available = toRight ? window.innerWidth - rightEdge - 16 : leftEdge - 16;
+    }
+    if (available < 220) {
+      // On narrow screens, use free vertical space rather than obscure the image.
+      const below = window.innerHeight - card.bottom - 32;
+      const above = card.top - 32;
+      const useBelow = below >= above;
+      const room = useBelow ? below : above;
+      if (room < 80) { hide(); return; }
+      tooltip.style.maxHeight = `${room}px`;
+      box = tooltip.getBoundingClientRect();
+      tooltip.style.left = `${Math.max(16, Math.min(card.left, window.innerWidth - box.width - 16))}px`;
+      tooltip.style.top = `${useBelow ? card.bottom + 16 : card.top - box.height - 16}px`;
+      return;
+    }
+    if (available >= 220 && available < box.width) {
+      tooltip.style.width = `${available}px`;
+      box = tooltip.getBoundingClientRect();
+    }
+    const x = toRight ? rightEdge : leftEdge - box.width;
     const left = Math.min(Math.max(x, 16), window.innerWidth - box.width - 16);
-    const ad = active.matches('.promo-book') ? active.closest('.ebook-promo')?.getBoundingClientRect() : null;
-    const below = ad ? ad.bottom + gap : pointer ? pointer.y + 16 : card.bottom + gap;
-    const above = ad ? ad.top - box.height - gap : pointer ? pointer.y - box.height - 12 : card.top - box.height - gap;
-    const top = below + box.height <= window.innerHeight - 16 ? below : above;
+    const centerY = pointer ? pointer.y : card.top + card.height / 2;
+    const top = centerY - box.height / 2;
     tooltip.style.left = `${left}px`;
     tooltip.style.top = `${Math.max(16, Math.min(top, window.innerHeight - box.height - 16))}px`;
   }
@@ -98,19 +151,23 @@
     }, 120);
   }
   document.addEventListener('pointerover', event => {
+    if (buttonFor(event.target)) { pointerCard = null; hide(); return; }
     const card = cardFor(event.target);
-    if (!card || card === cardFor(event.relatedTarget)) return;
+    if (!card || (card === cardFor(event.relatedTarget) && !buttonFor(event.relatedTarget))) return;
     clearTimeout(channelIdleTimer);
     pointerCard = card;
     pointer = {x:event.clientX, y:event.clientY};
+    if (scrolling) { hide(); return; }
     show(card);
   });
   document.addEventListener('pointermove', event => {
+    if (buttonFor(event.target)) { pointerCard = null; hide(); return; }
     const card = cardFor(event.target);
     if (!card || card !== pointerCard) return;
     const moved = !pointer || pointer.x !== event.clientX || pointer.y !== event.clientY;
     pointer = {x:event.clientX, y:event.clientY};
-    if (card.matches('.channel-card')) {
+    if (scrolling) { hide(); return; }
+    if (moved) {
       if (!moved) return;
       hide();
       channelIdleTimer = setTimeout(() => {
@@ -129,6 +186,7 @@
     scheduleHide();
   });
   document.addEventListener('focusin', event => {
+    if (buttonFor(event.target)) { hide(); return; }
     const card = cardFor(event.target);
     if (card) { clearTimeout(channelIdleTimer); pointer = null; show(card); }
   });
@@ -139,10 +197,20 @@
   tooltip.addEventListener('pointerleave', scheduleHide);
   document.addEventListener('keydown', event => { if (event.key === 'Escape') hide(); });
   window.addEventListener('resize', position);
-  window.addEventListener('scroll', () => {
-    if (active && active.contains(document.activeElement)) position();
-    else hide();
-  }, {passive:true});
+  function suppressWhileScrolling() {
+    scrolling = true;
+    hide();
+    clearTimeout(scrollIdleTimer);
+    scrollIdleTimer = setTimeout(() => {
+      scrolling = false;
+      if (!pointer) return;
+      const target = document.elementFromPoint(pointer.x, pointer.y);
+      const card = cardFor(target);
+      if (card && !buttonFor(target)) { pointerCard = card; show(card); }
+    }, 500);
+  }
+  document.addEventListener('scroll', suppressWhileScrolling, {passive:true, capture:true});
+  document.addEventListener('wheel', suppressWhileScrolling, {passive:true});
 })();
 
 

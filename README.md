@@ -60,3 +60,19 @@ Channel tooltips appear to the left of the playlist, aligned with the hovered ro
 Channel tooltips are vertically centered on the mouse pointer to the left of the playlist. With keyboard focus they center on the channel row. The position is clamped at the screen edges so the information remains visible.
 
 Ebook ad tooltips sit below the complete ad container and center horizontally on the mouse pointer. Ebooks, Bible Study Guides, and Storacles tooltips also center their width on the pointer. Screen-edge adjustments keep content visible. Channel tooltips remain to the left of the playlist and vertically centered on the pointer.
+
+Tooltips are suppressed over action buttons in every section, including ebook Download buttons, ad Download overlays, Read the Lesson buttons, favourites, and other native buttons. Entering a button cancels pending tooltip timers. Moving back to the item content restores normal hover behavior; button keyboard focus also keeps the popup hidden.
+
+Tooltips in every section hide during downward mouse movement and during page or nested-playlist scrolling. They can return after 500ms of stillness. Scrolling rechecks the item actually under the pointer and continues to suppress button areas.
+
+Library and ad tooltip side placement follows the actual visible row: columns 1–3 appear right of the pointer, columns 4–7 left, with a 24px gap. Responsive rows follow the same rule. Narrow edge space can reduce the popup width or use the opposite side to keep it on screen. Ad popups remain below the ad container. Playlist tooltips retain their left-side placement and 500ms stillness behavior.
+
+All tooltips now align the mouse pointer with their vertical midpoint, including the header ebook ad and all three study-library sections. Existing row-based left/right placement, button suppression, scrolling behavior, and playlist stillness delay are retained. Screen-edge clamping can shift a popup to keep it readable.
+
+All section tooltips hide during mouse movement in any direction, including left and right, and return after 500ms of stillness. Side placement now clears the full hovered card, keeping the cover or photo unobscured. On narrow screens, the popup uses available space above or below the item; if there is no readable space it stays hidden.
+
+Bible Study Guides and Storacles now use a two-column split for tooltip direction: visible row positions 1–2 show right, positions 3–4 show left. Ebook rows retain the 1–3 right / 4–7 left split. Image clearance and existing movement behavior remain.
+
+Header ad tooltips always appear 20px below the ad background container, horizontally centered on the mouse pointer. Screen-edge clamping keeps the popup readable, and vertical overflow scrolls within the available space below the ad. Library and playlist placement rules remain unchanged.
+
+Exception: hovering or focusing the Download overlay inside the header free ebooks ad can show its ebook tooltip. Button suppression remains in effect elsewhere; movement and stillness rules are retained.
